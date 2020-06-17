@@ -1,0 +1,142 @@
+
+/*Calendar View*/
+
+.calendar table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.calendar tr{
+    background-color: white;
+}
+
+.calendar table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+.calendar-cell {
+    vertical-align: top;
+    height: 8em;
+}
+
+.calendar-cell-long {
+    vertical-align: top;
+    height: 40em;
+
+}
+
+.calendar {
+    background-color: #d6f3ff;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.calendar_heading {
+    display: grid;
+    margin-bottom: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5em;
+    justify-items: center;
+    background-color: #d6f3ff;
+}
+
+.calendar_heading_text {
+    font-weight: bolder;
+    font-size: 2em;
+    grid-column-start: 2;
+}
+
+.view_text {
+    align-self: center;
+}
+
+.button_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5em;
+}
+
+.left_justify {
+    justify-items: left;
+    margin-right: auto;
+}
+
+.right_justify {
+    justify-items: right;
+    margin-left: auto;
+}
+
+.start_column_2 {
+    grid-column-start: 2;
+}
+
+.control_button {
+    border: 1px solid black;
+    /* margin-right: 0.25em; */
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.control_button:link, .control_button:visited {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.control_button:hover {
+    background-color: #edf7ff;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.control_button:active {
+    background-color: #dbeaff;
+    box-shadow: none;
+}
+
+.calendar_row {
+    text-align: left;
+}
+
+.calendar_row a {
+    text-decoration: none;
+}
+
+.calendar_row a:link, .calendar_row a:visited {
+    color: blue;
+}
+
+.calendar_row a:hover {
+    color: rgb(0, 119, 255);
+}
+
+.calendar_row a:active {
+    color: darkblue;
+}
+
+.weekdays {
+    font-weight: bold;
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.event {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.description {
+    margin-bottom: 0.75em;
+}
